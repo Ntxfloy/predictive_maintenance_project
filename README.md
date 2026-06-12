@@ -14,7 +14,7 @@ predictive_maintenance_project/
 ├── app.py                      # Главный файл запуска Streamlit (точка входа)
 ├── analysis_and_model.py       # Страница: Анализ данных (EDA), обучение моделей, симуляция датчиков
 ├── presentation.py             # Страница: Интерактивная Reveal.js презентация проекта
-├── generate_report.py          # Скрипт для программной генерации отчета в формате DOCX
+
 ├── report.docx                 # Итоговый сгенерированный отчет по ВКР
 ├── requirements.txt            # Список зависимостей для установки
 └── README.md                   # Документация проекта
@@ -69,11 +69,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-### 4. Генерация отчета по ВКР (при необходимости)
-Если вам нужно пересобрать отчет в формате Word (`report.docx`), запустите скрипт:
-```bash
-python generate_report.py
-```
 
 ---
 
