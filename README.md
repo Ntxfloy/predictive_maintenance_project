@@ -54,7 +54,7 @@ predictive_maintenance_project/
 
 ### 1. Клонирование репозитория
 ```bash
-git clone <ссылка_на_ваш_репозиторий>
+git clone https://github.com/Ntxfloy/predictive_maintenance_project.git
 cd predictive_maintenance_project
 ```
 
